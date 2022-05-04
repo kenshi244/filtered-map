@@ -1,0 +1,108 @@
+*
+    padding: 0
+    margin: 0
+    border: 0
+*,
+*:before,
+*:after
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+    &:focus,
+    &:active
+        outline: none
+a:focus,
+a:active
+    outline: none
+nav,
+footer,
+header,
+aside
+    display: block
+html,
+body
+    height: 100%
+    width: 100%
+    font-size: 100%
+    line-height: 1
+    font-size: 14px
+    -ms-text-size-adjust: 100%
+    -moz-text-size-adjust: 100%
+    -webkit-text-size-adjust: 100%
+input,
+button,
+textarea
+    font-family: inherit
+input
+    &::-ms-clear
+        display: none
+button
+    cursor: pointer
+    &::-moz-focus-inner
+        padding: 0
+        border: 0
+a,
+a:visited
+    text-decoration: none
+a
+    &:hover
+        text-decoration: none
+ul
+    li
+        list-style: none
+img
+    vertical-align: top
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+    font-size: inherit
+    font-weight: 400
+
+/* ----------------------------- */
+
+body
+    margin: 0 auto
+    text-align: center
+    font-family: "Montserrat", serif
+    background: #f5f1f1
+    color: #151313
+    h1
+        font-size: 30px
+        padding: 20px 0
+    .map
+        h2
+            font-size: 22px
+            padding: 20px 0
+        &__filters-container
+            height: 85vh
+            border: 3px solid #000
+            position: relative
+            hr
+                width: 90%
+                margin: 0 auto
+            h3
+                font-size: 16px
+            .price-slider__container
+                display: flex
+                flex-direction: column
+                justify-content: center
+                align-items: center
+                .price-slider
+                    width: 60%
+                    margin: 40px 0
+            .square-slider__container
+                display: flex
+                flex-direction: column
+                justify-content: center
+                align-items: center
+                h3
+                    margin: 20px 0
+                .square-slider
+                    width: 60%
+                    margin: 40px 0
+        #info
+            margin: 30px 0
+            font-size: 18px
